@@ -143,7 +143,7 @@ function getCell(x, y) {
 
 function enemyTurn() {
   isPlayerTurn = false;
-  alert("Enemy turn... (AI not implemented yet)");
+  showModal("Enemy turn... (AI not implemented yet)");
   // TODO: Enemy AI moves
 
   // For now, immediately switch back
